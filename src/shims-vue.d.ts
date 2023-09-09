@@ -4,3 +4,9 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+declare module 'three';
+declare module 'three/examples/jsm/controls/OrbitControls.js';
+declare module '*.glsl' {
+  const value: string
+  export default value
+}
